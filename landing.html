@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Educational landing page</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <link rel="stylesheet" href="landing.css" />
+  </head>
+  <body>
+    <header id="header">
+      <div class="header-content-div">
+        <a href="#home-sec">
+          <img
+            src="gyanshala.jpg"
+            alt="Company Logo"
+            id="header-img"
+        /></a>
+        <nav id="nav-bar">
+          <a href="#about" class="nav-link">ABOUT</a>
+          <a href="#our-courses" class="nav-link">OUR COUSES</a>
+          <a href="#our-service" class="nav-link">E-BOOKs</a>
+          <a href="#e-book" class="nav-link">CONTACT US</a>
+        </nav>
+      </div>
+    </header>
+    <main>
+      <section id="home-sec" class="flexible home-sec">
+        <div class="eye-grabber-img">
+          <img src="gyanshala.jpg" alt="Image of Apples" />
+        </div>
+        <div class="eye-grabber">
+          <h1>BEST, TECHNICAL, UNDERSTANDABLE.</h1>
+          <h2>
+           We are an online education platefrom which provides you best , technical and understandable form or educational content.
+          </h2>
+          <button class="btn" onclick="window.location.href = '#contact';">
+            Enroll Now
+          </button>
+        </div>
+      </section>
+      <section id="about" class="sec-padding">
+        <h3 class="section-heading">ABOUT US</h3>
+        <div class="sec-content-div flexible">
+          <p>
+            We are group of collage students . Generally we saw that there are many platefroms in online education but they do not want to share their content free of cost of nominal cost . So I and my team has try to grab this revolutionary idea which is gyanshala. The aim of gyanshala to provide educational content with techinal or understandable form. We also try to provide infromation about our history and geographic locations . We are also here to motivate students and provide them personal mentorship by which student feel comfort and be in the race to make theirself worthy and valuable.
+          </p>
+          <img src="gyanshala.jpg" alt="gyanshala" />
+        </div>
+      </section>
+      <section id="varieties" class="sec-padding">
+        <h3 class="section-heading">OUR COURSES</h3>
+        <div class="sec-content-div flexible">
+          <div class="tile">
+            <img src="html.png" alt="html couses" />
+            <h4>HTML</h4>
+            <p>
+             In this courses our faculty member teach you html and build basics of web developement.
+            </p>
+          </div>
+          <div class="tile">
+            <img
+              src="css-3.png"
+              alt="css course"
+            />
+            <h4>CSS</h4>
+            <p>
+              In this course you will learn basic to advance of CSS language.
+            </p>
+          </div>
+          <div class="tile">
+            <img src="java-script.png" alt="javascript courses" />
+            <h4>JAVA SCRIPT</h4>
+            <p>
+              In this course you learnt and play with java script basic to advance.
+            </p>
+          </div>
+          <div class="tile">
+            <img src="technical comm.png" alt="communication skills" />
+            <h4>Technical Communication and Soft Skills</h4>
+            <p>
+             In this course we will learn how to communicate effectively and how to appear better from others .In this courses we taught about professional skills.
+            </p>
+          </div>
+          <div class="tile">
+            <img src="science.jpg" alt="science and tech" />
+            <h4>Science and Tech</h4>
+            <p>
+              In this course we learn about science and tech . We use science and tech to make projects and make daily life easier.
+            </p>
+          </div>
+          <div class="tile">
+            <img src="dsa.jpg" alt="Data structure and algorithm" />
+            <h4>Data Str. and Algo.</h4>
+            <p>
+              Through this course you all learn about how to build logic of a problem and think about efficient and better solution of that problem with less time.
+            </p>
+          </div>
+        </div>
+      </section>
+      <section id="our-service" class="sec-padding">
+        <h3 class="section-heading">E-BOOks</h3>
+        <div class="sec-content-div">
+          <div class="bars">
+            <div class="icon-container">
+             
+            </div>
+            <div class="txt-container">
+              <h5>Portability</h5>
+              <p>Ebooks are highly portable, as they can be stored and accessed on various electronic devices such as smartphones, tablets, e-readers, and computers.</p>
+            </div>
+          </div>
+          <div class="bars">
+            <div class="icon-container">
+              
+            </div>
+            <div class="txt-container">
+              <h5>Accessibility</h5>
+              <p>
+                Ebooks are accessible to a wide range of readers, including those with disabilities.
+              </p>
+            </div>
+          </div>
+          <div class="bars">
+            <div class="icon-container">
+              
+            </div>
+            <div class="txt-container">
+              <h5>Searchability</h5>
+              <p>
+                Ebooks are easily searchable, allowing readers to quickly locate specific content, keywords, or phrases within a book.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      
+      <section class="sec-padding" id="contact">
+        <h3 class="section-heading">CONTACT US</h3>
+        <div class="sec-content-div flexible">
+          <h6>To Join our community as a teacher or student contack us :</h6>
+          <form
+            id="form"
+            action="https://www.freecodecap.com/email-submit"
+            method="POST"
+          >
+            <input
+              type="email"
+              name="email"
+              id="email"
+              placeholder="Your Email Address"
+              required
+            />
+            <input type="submit" class="btn" id="submit" value="Know More" />
+          </form>
+        </div>
+      </section>
+    </main>
+    <footer>
+      Created by
+      <a href="#">Harimohan Nishad</a>
+    </footer>
+  </body>
+</html>
